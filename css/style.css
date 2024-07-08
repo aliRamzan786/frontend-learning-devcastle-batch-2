@@ -1,0 +1,15 @@
+/* selector{
+    property:value;
+} */
+
+/* p{
+    color: green
+} */
+ .text1{
+    color: rgba(255, 255, 0, 0.696);
+ }
+#text2{
+    font-weight: 800;
+    color: green
+
+}
