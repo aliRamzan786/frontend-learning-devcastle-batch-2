@@ -5,11 +5,51 @@
 /* p{
     color: green
 } */
- .text1{
-    color: rgba(255, 255, 0, 0.696);
- }
-#text2{
-    font-weight: 800;
-    color: green
+.text1 {
+  color: rgba(255, 255, 0, 0.696);
+}
+#text2 {
+  font-weight: 800;
+  color: green;
+}
 
+.textclass {
+  width: 500px;
+  min-width: 400px;
+  max-width: 800px;
+  height: 400px;
+  min-height: 200px;
+  max-height: 600px;
+  border: 2px solid red;
+  /* padding: 10px; */
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  color: blue;
+  background-color: aqua;
+}
+
+.imageclass {
+  width: 700px;
+  height: 400px;
+  background-image: url('../images/images2.jpg');
+  background-repeat: repeat-y;
+  /* background-position: right top; */
+  /* background-size: cover; */
+}
+
+.parent{
+    height: 300px;
+    width: 800PX;
+    background-color: gray;
+}
+.questions{
+    color: rgba(255, 132, 0, 0.767);
+    font-weight: 700;
+    font-size: 20px;
+}
+.answer{
+    color: white;
 }
