@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  width: 900px;
+  background-color: rgb(249, 235, 218);
+  margin: 20px;
+  position: relative;
+}
+.p-relative {
+  position: relative;
+  /* left: 50px; */
+  /* right: 20px; */
+}
+.p-relative > span {
+  color: green;
+  background-color: greenyellow;
+  text-transform: uppercase;
+}
+.p-absolute {
+  padding-block: 50px;
+  background-color: aquamarine;
+}
+
+.p-absolute > p > span {
+  background-color: brown;
+  color: white;
+  font-weight: 700;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  /* margin: 20px; */
+}
+
+.p-absolute > img {
+  width: 130px;
+  height: 100px;
+  position: absolute;
+  top: 110px;
+  right: 400px;
+}
+.p-fixed {
+  position: relative;
+}
+/* img {
+  position: fixed;
+  top: 10px;
+  left: 200px;
+} */
+
+.d-property {
+    color: red;
+    display: inline;
+}
