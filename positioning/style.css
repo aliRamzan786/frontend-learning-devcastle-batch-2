@@ -44,6 +44,19 @@
 .p-fixed {
   position: relative;
 }
+
+.border-class {
+  /* border: 2px solid red; */
+  border-width: 3px;
+  border-color: red;
+  /* border-style: dotted solid; */
+  border-top-style: dotted;
+  border-right-style: dashed;
+  border-left-style: solid;
+  border-bottom-style: double;
+border-radius: 10px;
+}
+
 /* img {
   position: fixed;
   top: 10px;
@@ -51,6 +64,51 @@
 } */
 
 .d-property {
-    color: red;
-    display: inline;
+  color: red;
+  display: inline;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+#table1 {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+#table2 {
+  border-collapse: collapse;
+}
+
+input {
+  padding: 10px;
+  outline: 2px dashed red;
+  border: none;
+  box-shadow: 15px 10px 10px orange;
+  margin: 20px;
+}
+/* outline: [outline-width] [outline-style] [outline-color]; */
+/* box-shadow: 10px 10px 5px #888888 => Parameters: h-offset v-offset blur-radius color. */
+
+.float-class {
+  width: 50%;
+  height: 100px;
+  background-color: aqua;
+  /* margin: 30px; */
+  padding: 30px;
+}
+
+.float-left {
+  float: left;
+  width: 40%;
+  background-color: white;
+}
+.float-right {
+  float: right;
+  width: 40%;
+  color: orange;
+  background-color: white;
 }
