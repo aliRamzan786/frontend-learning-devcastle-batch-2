@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+nav ul li{
+    color: red;
+}
+
+nav ul li a:active {
+    color: blue;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Pseudo-Classes */
+input:focus {
+    border: 2px solid green;
+    border-radius: 20px;
+    outline: none;
+}
+
+p:first-child {
+    font-weight: bold;
+}
+
+p:last-child {
+    font-style: italic;
+}
+
+li:nth-child(2) {
+    color: blue;
+}
+
+li:nth-of-type(odd) {
+    background-color: #e0e0e0;
+}
+
+p:not(.special) {
+    color: green;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+input:checked + label {
+    color: green;
+}
+
+/* Pseudo-Elements */
+p::before {
+    content: "Note: ";
+    font-weight: bold;
+    color: red;
+}
+
+p::after {
+    content: "End.";
+    font-style: italic;
+    color: blue;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+::selection {
+    background: yellow;
+    color: black;
+}
+
+/* /////////////////////// */
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: orange;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
