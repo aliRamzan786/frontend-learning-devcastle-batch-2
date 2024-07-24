@@ -1,0 +1,45 @@
+
+body{
+    margin: 0px;
+}
+.pre-navbar{
+    background-color: #adb4be;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline:20px ;
+    
+    /* height: ; */
+}
+a{
+    /* text-decoration: none; */
+    color: black;
+    font-weight: 700;
+}
+.text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.list-items{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    padding:15px 25px ;
+}
+.home-section{
+    overflow: hidden;
+}
+.home-section > img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

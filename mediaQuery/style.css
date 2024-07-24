@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(224, 217, 212);
+}
+.parent{
+    /* overflow: hidden; */
+
+}
+.title{
+    font-style: italic;
+}
+.message{
+    font-size: 30px;
+    color: crimson;
+    text-wrap: nowrap;
+}
+.description{
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: coral;
+}
+
+@media screen and (max-width:480px) {
+    .title{
+        font-style: normal;
+    }
+    .message{
+        color: blue;
+        font-size: 15px;
+    }
+}

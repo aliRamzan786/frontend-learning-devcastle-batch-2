@@ -32,3 +32,11 @@ color: black;
     text-decoration:none;
     color: red;
 }
+/* grid-column-start: 1;
+grid-column-end: 4; 
+  grid-column-end: span 1;
+  grid-template-rows: 100px ;
+grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, min-content);
+  grid-template-columns: repeat(count, size);
+*/
